@@ -31,5 +31,7 @@ override.tf.json
 # example: *tfplan*
 
 # Ignore CLI configuration files
-.terraformrc
+.terraform*
 terraform.rc
+
+volume*

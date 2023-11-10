@@ -1,0 +1,8 @@
+team: "test"
+environment: "default"
+aws_region: ""
+vpc:
+  cidr_block: "10.0.0.0/16"
+  public_subnet_cidrs: ["10.0.10.0/24", "10.0.11.0/24", "10.0.12.0/24"]
+  private_subnet_cidrs: ["10.0.100.0/24", "10.0.101.0/24", "10.0.102.0/24"]
+  database_subnets: ["10.0.20.0/24", "10.0.21.0/24", "10.0.22.0/24"]
